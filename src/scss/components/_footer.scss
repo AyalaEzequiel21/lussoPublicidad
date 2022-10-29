@@ -1,0 +1,56 @@
+// FOOTER COMPONENT 
+// MOBILE 
+
+.footer{
+    background-color: $violeta;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    .text-footer{
+        color: $blanco;
+        margin: 1.5rem 2rem;
+        
+        h6{
+            text-align: center;
+            margin-bottom: .5rem;
+        }
+
+        .item-footer{
+            margin: .5rem 0;
+
+            span{
+                margin-left: .5rem;
+
+                a{
+                    color: $blanco;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .logo-footer{
+        height: 5rem;
+        width: 8rem;
+    }
+}
+
+// DESKTOP 
+@media (min-width: 768px) { 
+    
+    .footer{
+        flex-direction: row;
+
+        .text-footer{
+            h6{
+                text-align: start;
+            }
+        }
+
+        .logo-footer{
+            margin-right: 2rem;
+        }
+    }
+ }

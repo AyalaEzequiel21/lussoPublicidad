@@ -1,0 +1,32 @@
+// TEXT SERVICIO COMPONENT 
+// MOBILE 
+
+.container-text-servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 5rem;
+    
+
+    .text-servicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        min-width: 15rem;
+        max-width: 35vw;
+        padding: 1.5rem 1.2rem 1rem 1.5rem;
+        box-shadow: -20px 20px 0 -17px $blanco,
+                        20px -20px 0 -17px $blanco,
+                        20px 20px 0 -20px $violeta,
+                        0 0 0 2px $violeta;
+
+        h5{
+            border-bottom: 5px solid $naranja;
+            width: 12rem;
+        }
+        .p-servicio{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}

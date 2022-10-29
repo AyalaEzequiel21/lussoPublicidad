@@ -1,0 +1,19 @@
+// PALETA DE COLORES 
+$blanco : #f5f6f5;
+$naranja : #f06f24;
+$violeta : #33103d;
+$amarillo : #f5c965;
+$rosa : #e38a8a;
+
+// TOOGLE NAVBAR HEADER 
+
+$navbar-toggler-font-size: 1.2rem;
+$navbar-light-color: $blanco;
+
+// CAROUSEL 
+$carousel-control-transition:        opacity .10s ease;
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

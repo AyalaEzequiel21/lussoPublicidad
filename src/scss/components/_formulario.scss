@@ -1,0 +1,47 @@
+// FORMULARIO COMPONENT 
+// MOBILE 
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h5{
+        color: $violeta;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .container-input{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+
+            .input-form{
+                border: none;
+                border-radius: 3px;
+                padding: .5rem;
+                width: 40vw;
+                box-shadow: 0px 0px 3px 0px $violeta;
+            }
+        }
+
+        .button-form{
+            color: $blanco;
+            background-color: $violeta;
+            border-radius: 5px;
+            margin: 2rem auto;
+            height: 2rem;
+            width: 5rem;
+
+            &:hover{
+                color: $naranja;
+            }
+        }
+    }
+}

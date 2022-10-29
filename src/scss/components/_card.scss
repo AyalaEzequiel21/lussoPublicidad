@@ -1,0 +1,32 @@
+.card{
+    height: 23rem;
+    width: 18rem;
+    box-shadow: 0px 0px 3px 0px $naranja;
+    margin: 1.5rem 2rem;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    .image-card{
+        height: 13rem;
+        max-width: 18rem;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0px 0px 3px 0px $naranja;
+
+    }
+
+    .text-card{
+        margin-top: .5rem;
+        margin-left: .5rem;
+
+        h6{
+            color: $naranja;
+        }
+        
+        p{
+            font-size: 1rem;
+            width: 13rem;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.clientes{
+    display: flex;
+    // background-color: $violeta;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 6rem 0 2rem;
+
+    h5{
+        // color: $blanco;
+    }
+
+    .circles{
+
+        width: 50vw;
+        height: auto;
+
+        .carousel{
+
+            .carousel-inner{
+
+                .carousel-item{
+                    display: flex;
+                    align-items: center;    
+                    justify-content: center;
+
+                    .content-circle{
+                        width: 50vw;
+                        height: auto;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

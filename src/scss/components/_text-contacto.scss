@@ -1,0 +1,29 @@
+// TEXT CONTACTO COMPONENTE 
+// MOBILE 
+
+.container-text-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+
+    .text-contacto{
+        min-width: 15rem;
+        max-width: 35vw;
+        padding: 1.5rem 1rem 1rem 1.5rem;
+        box-shadow: -20px 20px 0 -17px $blanco,
+                        20px -20px 0 -17px $blanco,
+                        20px 20px 0 -20px $violeta,
+                        0 0 0 2px $violeta;
+
+        p{
+            font-size: 1.2rem;
+            font-weight: 500;
+
+            span{
+                color: $naranja;
+                font-weight: 600;
+            }
+        }
+    }
+}

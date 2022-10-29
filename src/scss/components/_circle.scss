@@ -1,0 +1,20 @@
+.circle{
+    height: 6rem;
+    width: 6rem;
+    margin: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .img-circle{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        box-shadow: 3px 3px 7px -3px rgba(96, 96, 96, 0.94);
+
+    }
+}

@@ -1,0 +1,40 @@
+// SPLASH-CARROUSEL COMPONENT
+
+// MOBILE 
+.splash-carousel{
+    // height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carousel{
+        // height: auto;        
+        width: 100%;
+
+        .carousel-inner{
+            width: 100%;
+            max-height: 55vh;
+            
+            .img-carousel{
+                height: 100%;
+                width: 100%;
+                max-height: 32rem;
+                // opacity: 0.9;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .splash-carousel{
+        
+        .carousel{
+            max-width: 98%;
+
+            .carousel-inner{
+                max-height: 65vh;
+            }
+        }
+    }
+ }

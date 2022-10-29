@@ -1,0 +1,46 @@
+// TEXT-HOME COMPONENT 
+// MOBILE
+
+.container-text-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+    
+    .text-home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+
+        h4{
+            border-bottom: 5px solid $naranja;
+            max-width: 9rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 1rem;
+            min-width: 12rem;
+            max-width: 22rem;
+            margin-left: 1rem;
+            box-shadow: -20px 20px 0 -17px $blanco,
+                        20px -20px 0 -17px $blanco,
+                        20px 20px 0 -20px $violeta,
+                        0 0 0 2px $violeta;
+        }
+    }
+}
+
+
+@media (max-width: 400px) { 
+    .text-home{
+        flex-direction: column;
+        
+    }
+ }

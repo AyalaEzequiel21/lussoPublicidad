@@ -1,0 +1,82 @@
+// HEADER COMPONENT
+
+// MOBILE 
+
+.header{
+    background-color: $violeta;
+    display: flex;
+    justify-content: space-between;
+
+    .logoHeader{
+        height: 6rem;
+        width: 9rem;
+        margin-left: 1rem;
+    }
+
+    .navbar{
+        
+        .container-fluid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .btn-nav{
+                color: $blanco;
+                
+                .icon{
+                    font-size: 1rem;
+                }
+            }
+            .navbar-collapse{
+                
+                .list-nav-header{
+
+                    .nav-link{
+                        padding: 0;
+                        margin: 5px 0;
+                        font-size: 1rem;
+
+                        &:visited{
+                            color: $blanco;
+                        }
+                        
+                        &:hover{
+                            color: $naranja;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .header{
+        
+        .logoHeader{
+            height: 6rem;
+            width: 9rem;
+            margin-left: 1rem;
+        }
+    
+        .navbar{
+            
+            .container-fluid{
+                
+                .navbar-collapse{
+                    
+                    .list-nav-header{
+    
+                        .nav-link{
+                            padding: 0;
+                            margin: 5px 1rem;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
