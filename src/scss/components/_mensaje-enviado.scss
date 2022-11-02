@@ -1,0 +1,50 @@
+// MENSAJE ENVIADO - PAGE 
+// MOBILE 
+.container-mensaje{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-mensaje{
+        height: 15rem;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -20px 20px 0 -17px $blanco,
+                        20px -20px 0 -17px $blanco,
+                        20px 20px 0 -20px $naranja,
+                        0 0 0 2px $naranja;
+
+
+        h5{
+            width: 30vw;
+            margin-bottom: 3rem;
+        }
+
+        button{
+            background-color: $violeta;
+            border-radius: 5px;
+            width: 6rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a{
+                color: $blanco;
+                font-size: 1rem;
+                text-decoration: none;
+        
+                &:hover {
+                    color: $naranja;
+                }
+            }
+
+            &:hover {
+                border: 1px solid $naranja;
+            }
+        }
+    }
+}

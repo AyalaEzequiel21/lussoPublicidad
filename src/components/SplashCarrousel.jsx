@@ -1,6 +1,6 @@
-import calchaqui from "../images/calchaqui.png";
-import bajadaAutopista from "../images/bajada-autopista-quilmes2.png";
-import mitreRivadavia from "../images/mitre-y-rivadavia3.png"
+import calchaqui from "../images/calchaqui2.jpg";
+import bajadaAutopista from "../images/bajada-quilmes0.png";
+import mitreRivadavia from "../images/mitre-rivadavia.jpg"
 
 export function SplashCarrousel() {
   return (
@@ -17,11 +17,11 @@ export function SplashCarrousel() {
                     <img src={mitreRivadavia} className="d-block w-100 img-carousel" alt="image-pantalla"/>
                 </div>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button className="carousel-control-prev btn-ctr" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button className="carousel-control-next btn-ctr" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>

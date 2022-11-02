@@ -1,12 +1,14 @@
 import {Cards} from "../components/Cards";
 import {Clientes} from "../components/Clientes";
 import {TextServicio} from "../components/TextServicio";
-// import {SplashCarrousel} from "../components/SplashCarrousel";
 import bajada from '../images/bajada-quilmes-3-mini.png';
 import mitre from '../images/mitre-y-rivadavia-mini.png';   
 import triangulo from '../images/triangulo-mini.png';
 import calchaqui from '../images/calchaqui-mini.png';
 import bernal from '../images/bernal-mini.png';
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const dates = [
@@ -42,12 +44,24 @@ const dates = [
 ]
 
 export function Servicio() {
+
+  useEffect(()=> {
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
     <>
-      {/* <SplashCarrousel/> */}
-      <TextServicio/>
-      <Cards dates = {dates}/>
-      <Clientes/>
+      <div data-aos="fade-up">
+        <TextServicio/>
+      </div>
+      <hr />
+      <div data-aos="fade-up">
+        <Cards dates = {dates}/>
+      </div>
+      <hr />
+      <div data-aos="fade-up">
+        <Clientes/>
+      </div>
     </>
   )
 }

@@ -34,7 +34,7 @@ export function Clientes() {
     <div className="clientes">
       <h5>Las empresas que confian en nosotros</h5>
       <div className="circles">
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="content-circle">
@@ -56,6 +56,14 @@ export function Clientes() {
                 })}
               </div>            </div>
           </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden btn-ctr">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden btn-ctr">Next</span>
+          </button>
         </div>
       </div>  
     </div>
