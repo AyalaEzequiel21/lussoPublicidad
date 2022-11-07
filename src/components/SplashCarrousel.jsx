@@ -1,11 +1,11 @@
 import calchaqui from "../images/calchaqui2.jpg";
-import bajadaAutopista from "../images/bajada-quilmes0.png";
+import bajadaAutopista from "../images/bajada-autopista-quilmes.png";
 import mitreRivadavia from "../images/mitre-rivadavia.jpg"
 
 export function SplashCarrousel() {
   return (
     <div className= "splash-carousel">
-        <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide carousel-fade contenedor" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={bajadaAutopista} className="d-block w-100 img-carousel" alt="image-pantalla"/>

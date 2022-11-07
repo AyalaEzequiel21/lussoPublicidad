@@ -3,6 +3,7 @@
     width: 18rem;
     box-shadow: 0px 0px 3px 0px $naranja;
     margin: 1.5rem 2rem;
+    // background-color: $naranja;
 
     &:hover{
         opacity: 0.8;
@@ -20,13 +21,22 @@
         margin-top: .5rem;
         margin-left: .5rem;
 
+        h5{
+            font-weight: 700;
+            color: black;
+        }
+
         h6{
             color: $naranja;
+            font-weight: 400;
         }
         
         p{
             font-size: 1rem;
-            width: 13rem;
+            width: 14rem;
+            font-weight: 400;
+            color: black;
+            white-space:pre-wrap;
         }
     }
 }

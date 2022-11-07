@@ -5,8 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     
     
     .text-home{
@@ -20,6 +20,7 @@
             max-width: 9rem;
             margin-right: 1rem;
             margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         p{
@@ -39,8 +40,14 @@
 
 
 @media (max-width: 400px) { 
-    .text-home{
-        flex-direction: column;
-        
+
+    .container-text-home{
+        margin-top: 3rem;
+
+
+        .text-home{
+            flex-direction: column;
+            
+        }
     }
  }

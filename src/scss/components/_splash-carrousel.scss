@@ -1,27 +1,40 @@
 // SPLASH-CARROUSEL COMPONENT
 
 // MOBILE 
+
 .splash-carousel{
-    // height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // opacity: 0.9;
+    background: $violeta;
+    background: linear-gradient(to bottom, $violeta 65%, $blanco 95%);
+    height: 40vh;
+    width: 100%;
+    padding-top: 2px;
+    
 
-    .carousel{
-        // height: auto;        
+    .contenedor{
         width: 100%;
-
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         .carousel-inner{
-            width: 100%;
-            max-height: 55vh;
-            
-            .img-carousel{
-                height: 100%;
-                width: 100%;
-                max-height: 32rem;
-                // opacity: 0.9;
+            height: 250px;
+            width: 90%;
+            margin: 0;
+
+            .carousel-item{
+                height: 230px;
+                
+                .img-carousel{
+                    border-radius: 15px;
+                    height: 230px;
+                    
+                }
             }
+        }
+
+        .btn-ctr{
+            
         }
     }
 }
@@ -29,15 +42,27 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
     .splash-carousel{
-        
-        .carousel{
-            // max-width: 98%;
+        height: 80vh;
 
+        .contenedor{
+            height: 550px;
+            
             .carousel-inner{
-                max-height: 90vh;
-
-                
+                height: 550px;
+    
+                .carousel-item{
+                    height: 550px;
+                    
+                    .img-carousel{
+                        border-radius: 15px;
+                        height: 33rem;
+                    }
+                }
+            }
+    
+            .btn-ctr{
+    
             }
         }
     }
- }
+}

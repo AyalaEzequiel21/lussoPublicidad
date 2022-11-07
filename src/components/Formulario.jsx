@@ -36,7 +36,7 @@ export function Formulario() {
 
   return (
     <div className="container-form">
-        <h5>Contactanos..</h5>
+        <h4>Contactanos..</h4>
         <form id='form' onSubmit={sendEmail}>
             <div className="container-input">
                 <label className="label-form">Nombre y Apelido</label>

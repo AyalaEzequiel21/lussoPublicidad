@@ -10,8 +10,9 @@
     padding: 0 0 2rem;
     overflow-x: hidden;
 
-    h5{
+    h4{
         padding-bottom: 3rem;
+        font-weight: 600;
     }
 
     .circles{
@@ -27,7 +28,7 @@
                 .carousel-item{
                      
                     .content-circle{
-                        width: 75vw;
+                        width: 80vw;
                         height: auto;
                         margin: 0 auto;
                         display: flex;

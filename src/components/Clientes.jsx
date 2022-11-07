@@ -32,7 +32,7 @@ const images3 = [peugeot, provincia, otamendi, golden, gente, maga, zonaprop, fi
 export function Clientes() {
   return (
     <div className="clientes">
-      <h5>Las empresas que confian en nosotros</h5>
+      <h4>Las empresas que confian en nosotros</h4>
       <div className="circles">
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
