@@ -37,6 +37,13 @@
                 }
             }
         }
+        .captcha{
+            padding-top: 1rem;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         .button-form{
             color: $blanco;

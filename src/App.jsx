@@ -12,7 +12,7 @@ export function App(){
     
     return (
         <div>
-            <BrowserRouter basename="/lusso-publicidad">
+            <BrowserRouter basename="/">
                 <Header/>
                 <main className="main">
                     <Routes>

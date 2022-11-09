@@ -1,8 +1,13 @@
 import emailJs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export function Formulario() {
     let navigate = useNavigate();
+
+    function onChange(value) {
+        console.log("Captcha value:", value);
+      }
 
     const validarEmail = (email)=>{
         let response  = null
@@ -49,6 +54,12 @@ export function Formulario() {
             <div className="container-input">
                 <label className="label-form">Mensaje</label>
                 <textarea cols="30" rows="10" name= "user_message" className="input-form" required></textarea>
+            </div>
+            <div className="captcha">
+            <ReCAPTCHA
+                sitekey="6LfzZ-4iAAAAAF71-kiS6F5A4oZ7V1R-Ks6Mp5uj"
+                onChange={onChange}
+            />,
             </div>
             <button type="submit" className="button-form">ENVIAR</button>
         </form>
