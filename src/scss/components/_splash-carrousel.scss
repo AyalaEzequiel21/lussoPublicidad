@@ -42,20 +42,20 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
     .splash-carousel{
-        height: 80vh;
+        height: 85vh;
 
         .contenedor{
-            height: 550px;
+            height: 600px;
             
             .carousel-inner{
-                height: 550px;
+                height: 600px;
     
                 .carousel-item{
-                    height: 550px;
+                    height: 600px;
                     
                     .img-carousel{
                         border-radius: 15px;
-                        height: 33rem;
+                        height: 35rem;
                     }
                 }
             }
